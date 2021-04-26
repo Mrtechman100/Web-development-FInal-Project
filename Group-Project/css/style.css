@@ -1,0 +1,149 @@
+/* CSS Reset */
+
+html{
+	height: 100%;
+}
+body{
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+    background-color: #c26b2b;
+    background-image: linear-gradient(to right, #c26b2b, #ef9806);
+    text-decoration: none;
+}
+
+nav a   {
+    color: darkgreen;
+}
+
+main  {
+    border: solid 12px;
+    border-color: #494a4a;
+	flex-grow: 1;
+	padding: 5px;
+}
+
+footer  {
+	border: solid 7px;
+    border-color: #c26b2b;
+	background-color: black;
+	color: white;
+}
+
+footer .icon-links {
+	display: flex;
+	padding: 10px;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 35%;
+	margin: auto;
+}
+
+footer .icon-links a{
+	transition: 0.4s;
+	border-radius: 30%;
+	margin: 0px 2px;
+	background-color: darkgreen;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	border: 3px solid darkgreen;
+	line-height: 1.3em;
+	padding: 1px;
+}
+
+footer .icon-links a i{
+	width: 1.3em;
+}
+
+footer .icon-links a:hover{
+	background-color: inherit;
+	color: darkgreen;
+}
+
+footer .extra-info {
+	padding: 10px;
+	max-width: 800px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid #aaa;
+	padding: 10px 0px;
+	font-size: .7em;
+}
+
+footer .extra-info > div {
+	max-width: 50%;
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
+footer .author-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-right: 1px solid #aaa;
+}
+
+footer .author-info .names{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	flex-flow: wrap;
+}
+
+footer .author-info .names a{
+	color: inherit;
+}
+
+footer .logo{
+	justify-content: center;
+}
+
+footer .logo > *{
+	margin: 0 10px;
+}
+
+footer .logo img {
+	width: 60px;
+}
+
+
+@media only screen and (max-width: 550px){
+	footer .icon-links a{
+		line-height: 1.1em;
+		font-size: 1.5em;
+	}
+	footer .icon-links a i{
+		width: 1.1em;
+	}
+	footer .extra-info {
+		flex-direction: column;
+	}
+	footer .extra-info > div {
+		max-width: 100%;
+		padding: 10px 0;
+	}
+	footer .extra-info .author-info {
+		border: none;
+		border-bottom: 1px solid #aaa;
+	}
+	footer .logo img {
+		width: 40px;
+	}
+}
+
+@media only screen and (max-width: 400px){
+	footer .icon-links a{
+		line-height: 1em;
+		font-size: 1em;
+	}
+	footer .icon-links a i{
+		width: 1em;
+	}
+}

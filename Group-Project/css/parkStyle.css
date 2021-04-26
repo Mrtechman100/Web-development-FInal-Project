@@ -1,0 +1,109 @@
+/* CSS Reset */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: #c26b2b;
+    background-image: linear-gradient(to right, #c26b2b, #ef9806);
+    text-decoration: none;
+}
+
+main  {
+    /*height: 100%;*/
+    border: solid 12px;
+    border-color: #494a4a;
+}
+
+.tabs {
+    overflow: hidden;
+    border: 2px solid #c26b2b;
+}
+
+.tabs button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #c26b2b;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #c26b2b;
+    border-top: none;
+    height: 100%;
+    text-align: center;
+}
+
+.information {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+#history{
+    text-align: center;
+}
+
+.col{
+    width: 50%;
+}
+
+.col1{
+    overflow: hidden;
+}
+
+#welcome {
+    padding: 6px 12px;
+    border: 2px solid #c26b2b;
+    border-top: none;
+    text-align: center;
+}
+
+#welcome img {
+    height: 45%;
+    width: 60%;
+}
+
+.map {
+    text-align: center;
+    margin: auto;
+}
+
+.map iframe {
+    height: 400px;
+    width: 75%;
+}
+
+footer  {
+    border: solid 7px;
+    border-color: #c26b2b;
+}
+
+@media (min-width: 900px){
+    .main {
+        height: 100%;
+        margin: 5%;
+        column-count: 2;
+    }
+
+    .information {
+        text-align: center;
+        margin: auto;
+        width: 90%;
+    }
+    .map iframe {
+        height: 450px;
+        width: 600px;
+    }
+}

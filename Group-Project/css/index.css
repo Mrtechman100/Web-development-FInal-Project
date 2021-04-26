@@ -1,0 +1,10 @@
+main{
+    display: grid;
+    columns: 1;
+    grid-row: 2;
+}
+
+main h1{
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}

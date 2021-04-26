@@ -1,0 +1,17 @@
+/* CSS Reset */
+
+nav {
+    background-color: #c26b2b;
+    background-image: linear-gradient(to right, #c26b2b, #ef9806);
+}
+
+main  {
+    border: solid 12px;
+    border-color: #494a4a;
+}
+
+footer  {
+    border: solid 7px;
+    border-color: #c26b2b;
+    padding-block-start: 10%;
+}

@@ -1,0 +1,210 @@
+<!--This page was created by: Nicholas Burrell using the tempolate from Jake and adding Custom CSS.-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Booking Information</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style4book.css">
+</head>
+
+<body>
+
+<!-- Use the nav area to add hyperlinks to other pages within the site -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ParkInfo.html">Park Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Hikes.html">Hikes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="attractions.html">Attractions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- Use the main area to add to the main body of the site -->
+
+<main>
+    <h1>Book a Trip With Us Today!</h1>
+    <img src="images/zionpark.jpeg" width="500" height="500">
+    <div class="name">
+        <h3>What's your name?</h3><br>
+            <form>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+            </form><br>
+    </div>
+    <div class="quantity">
+        <h3>How many people are in your group?</h3><br>
+            <form>
+                <label for="quantity">Select One Option:</label>
+                <select name="quantity" id="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10+">10+</option>
+                </select>
+            </form><br>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="hikes-attractions">
+                <h3>Which hikes are you interested in?</h3><br>
+                    <form>
+                        <input type="checkbox" id="hike1" name="hike1" value="#">
+                        <label for="hike1">Lower Emerald Pools</label><br>
+                        <input type="checkbox" id="hike2" name="hike2" value="#">
+                        <label for="hike2">Grotto Trail</label><br>
+                        <input type="checkbox" id="hike3" name="hike3" value="#">
+                        <label for="hike3">Watchman</label><br>
+                        <input type="checkbox" id="hike4" name="hike4" value="#">
+                        <label for="hike4">Middle Emerald Pools</label><br>
+                        <input type="checkbox" id="attractions1" name="attractions1" value="#">
+                        <label for="attractions1">Angels Landing</label><br>
+                        <input type="checkbox" id="attractions2" name="attractions2" value="#">
+                        <label for="attractions2">Observation Point</label><br>
+                        <input type="checkbox" id="attractions3" name="attractions3" value="#">
+                        <label for="attractions3">The Narrows</label><br>
+                    </form><br>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <div class="prices">
+                <h3>Pricing</h3>
+                <p>Each hike with only cost $10 not including travel exspenses.</p>
+            </div>
+        </div>
+    </div>
+        
+        <div class="contact-info">
+        <h3>Contact Information</h3><br>
+            <form>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email">
+            </form><br>
+    </div>
+    <div class="payment">
+        <h3>Payment</h3><br>
+            <form>
+                <label for="fname">Accepted Cards</label>
+                <p>
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-amex"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-discover"></i><br><br>
+                <label for="cname">Name on Card:</label>
+                <input type="text" id="cname" name="cardname" placeholder="Full Name"><br> 
+                <label for="cardnumber">Credit Card Number:</label>
+                <input type="text" id="cardnumber" name="cardnumber" placeholder="1111-1111-1111-1111"><br>
+                <label for="expmonth">Experation Month:</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="Month"><br>
+                <label for="expyear">Experation Year:</label>
+                <input type="text" id="expyear" name="expyear" placeholder="Year"><br>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" placeholder="111">
+            </form><br>
+    </div>
+    <div class="emergency">
+        <h3>Emergency Contact</h3><br>
+            <form>
+                <label for="ename">First Name:</label>
+                <input type="text" id="ename" name="ename"><br>
+                <label for="enamel">Last Name:</label>
+                <input type="text" id="enamel" name="enamel"><br>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+            </form><br>
+    </div>
+    <hr>
+    <div class="notify">
+        <form>
+            <input type="checkbox" id="notify" name="notify" value="#">
+            <label for="notify">Please check box if you would like us to notify you of any upcoming deals for our hiking trips and attractions.</label>
+        </form>
+    </div> 
+    <button onclick="Submit()">Submit</button>   
+    
+
+        
+
+</main>
+
+<!-- Use the footer area to add site footer content -->
+
+<footer>
+
+	<div class="icon-links">
+		<a target="_blank" href="https://www.facebook.com/ZionNPS"> <i class="fab fa-facebook"></i> </a>
+		<a target="_blank" href="https://www.youtube.com/user/NPSZion"> <i class="fab fa-youtube"></i> </a>
+		<a target="_blank" href="https://www.twitter.com/ZionNPS"> <i class="fab fa-twitter"></i> </a>
+		<a target="_blank" href="https://www.instagram.com/zionnps/"> <i class="fab fa-instagram"></i> </a>
+		<a target="_blank" href="mailto:zion@nps.gov"> <i class="fas fa-envelope"></i> </a>
+		<a target="_blank" href="tel:+14357723256"> <i class="fas fa-phone"></i> </a>
+		<a target="_blank" href="https://www.google.com/maps/place/Zion+National+Park/@37.2573174,-113.058696,12.18z/data=!4m12!1m6!3m5!1s0x80caead08844f8d9:0x7c2e3a15aa3656f5!2sZion+National+Park!8m2!3d37.2982022!4d-113.0263005!3m4!1s0x80caead08844f8d9:0x7c2e3a15aa3656f5!8m2!3d37.2982022!4d-113.0263005"> <i class="fas fa-map-marked-alt"></i> </a>
+		<a target="_blank" href="https://apps.apple.com/us/app/national-park-service/id1549226484"> <i class="fab fa-app-store"></i> </a>
+		<a target="_blank" href="https://play.google.com/store/apps/details?id=gov.nps.mobileapp"> <i class="fab fa-google-play"></i> </a>
+	</div>
+	<div class="extra-info">
+		<div class="author-info">
+			<span> Author:</span>
+			<div class="names">
+				<a target="_blank" href="nicholas.html" > Nick </a>
+				
+			</div>
+		</div>
+		<div class="logo">
+		<p>
+			National Park Service
+			<br>
+			U.S. Department of the Interior
+		</p>
+		<img src="images/nps-logo.png" title="national park logo" alt="national park logo">
+		</div>
+	</div>
+
+</footer>
+
+</body>
+
+</html>

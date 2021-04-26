@@ -1,0 +1,37 @@
+nav {
+    background-color: #c26b2b;
+    background-image: linear-gradient(to right, #c26b2b, #ef9806);
+}
+
+main  {
+    border: solid 12px;
+    border-color: #494a4a;
+
+}
+
+img {
+    padding-left: 10%;
+}
+
+h1  {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3  {
+    padding-left: 10%;
+    
+}
+
+p   {
+    padding-left: 10%;
+    
+}
+
+footer  {
+    border: solid 7px;
+    border-color: #c26b2b;
+    text-align: center;
+    padding-right: 7%;
+}
+
