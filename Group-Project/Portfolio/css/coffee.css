@@ -1,0 +1,86 @@
+
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+
+}
+.col-6 * {
+    width: 100%;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+select, input {
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0;
+}
+
+div>h3, p, h2  {
+    display: inline;
+    font-family: 'Amaranth', sans-serif;
+
+}
+
+div>p {
+    color: #a8803f;
+}
+
+.coffee {
+    max-width: 50%;
+    float: left;
+    clear: right;
+}
+
+.container{
+    max-width: 70%;
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 50px;
+    border-radius: 12px;
+}
+
+body{
+
+    background-color: bisque;
+
+}
+
+.fondo{
+    background-image: url("../img/coffee_vector.png");
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.pale{
+    opacity: 0.9;
+    margin:auto;
+    text-decoration-style: double;
+}
+
+.button{
+
+    background-color: #a8803f;
+    color: white;
+    border: none;
+
+}
+
+#add-coffee, #newName, #roast-selection, #coffeeSearch{
+    border: #a8803f solid 1px;
+
+}
+
+

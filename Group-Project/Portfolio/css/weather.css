@@ -1,0 +1,59 @@
+body {
+    background-color:  #B3DBFA;
+}
+
+#current {
+    border: 1px solid black;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.current {
+    background-color: white;
+}
+
+.temp {
+    font-weight: bold;
+}
+
+.wind, .weather, .pressure, .humidity {
+    font-weight: bold;
+}
+
+#forecast {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.forecast1, .forecast2, .forecast3 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.forecast2 {
+    margin: 2px;
+}
+
+.button {
+    margin: 0 auto;
+    width: 5em;
+}
+
+#map-canvas {
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.input-group {
+    width: 80%;
+    margin: 0 auto;
+}

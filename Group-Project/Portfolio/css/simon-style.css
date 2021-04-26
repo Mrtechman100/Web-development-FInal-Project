@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align : center;
+    color: white;
+}
+
+#circle-container {
+    width: 400px;
+    height: 400px;
+    position:relative;
+    margin: 0 auto;
+}
+
+.quarter {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.top-left {
+    border-top-left-radius: 200px;
+    background: green;
+    float: left
+}
+
+.top-right {
+    border-top-right-radius: 200px;
+    background: blue;
+    float: right
+}
+
+.bottom-left {
+    border-bottom-left-radius: 200px;
+    background: yellow;
+    float: left
+}
+
+.bottom-right {
+    border-bottom-right-radius: 200px;
+    background: red;
+    float: right
+}
+
+/*.start {*/
+/*width: 200px;*/
+/*height: 200px;*/
+/*position:relative;*/
+/*z-index:1;*/
+/*margin: 0 auto;*/
+/*text-align: center;*/
+/*}*/
+
+.start {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    background-color: lightgrey;
+    border-radius:190px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 4px solid black;
+}
+
+.button-text {
+    margin-top: 65px;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.light {
+    background-color: white;
+}

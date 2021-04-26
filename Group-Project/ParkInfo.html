@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<!-- This website template made by: Jake Johnson -->
+<html lang="en">
+<head>
+    <title>Group Project</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/parkStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/parkJs.js"></script>
+</head>
+
+<body>
+
+<!-- Use the nav area to add hyperlinks to other pages within the site -->
+
+<nav class="navbar navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100 order-1 order-md-0 dual-collapse2" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ParkInfo.html">Park Info</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Hikes.html">Hikes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="attractions.html">Attractions</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="booking.html">Booking</a>
+            </li>
+        </ul>
+
+    </div>
+
+</nav>
+
+
+<!-- Use the main area to add to the main body of the site -->
+
+<main>
+
+    <div class="main">
+
+        <div class="information">
+
+            <div class="tabs">
+                <div class="buttons">
+                    <button class="tablinks" onclick="openTab(event, 'location')">Location</button>
+                </div>
+                <div class="buttons">
+                    <button class="tablinks" onclick="openTab(event, 'history')">History</button>
+                </div>
+                <div class="buttons">
+                    <button class="tablinks" onclick="openTab(event, 'video')">Video</button>
+                </div>
+            </div>
+
+            <div class="tabContainer">
+
+                <div id="welcome">
+                    <h2>Welcome to Zion National Park!</h2>
+                    <img src="img/ZionHike.jpeg" />
+                </div>
+
+                <div id="location" class="tabcontent">
+                    <h3>Location</h3>
+                    <p>Zion National Park is located in beautiful Southern Utah near the town of Springdale.  Its location is perfect for a weekend getaway
+                    with the family as it it close to many campgrounds, hiking trails outside of the park and events that take place year round.</p>
+                </div>
+
+                <div id="history" class="tabcontent">
+
+                        <h3>History</h3>
+                        <p>Like many areas in the State of Utah, the area we know of today as Zion National Park was first explored by Mormon pioneers, missionaries, and explorers. Initially establishing their Southern Utah footing in the Cedar City area, these early settlers eventually expanded all the way to the southern desert region near what was eventually dubbed the Virgin River and Zion Canyon. At this point in history (the 1850s), the area was harsh, wild, and had been scarcely explored, being inhabited solely by Southern Paiute Indians. As you can imagine, these early white settlers were completely astounded at the magnificent beauty of the towering cliffs, majestic slot canyons, and everything else that the modern world has come to know and love about Zion.</p>
+
+                </div>
+
+                <div id="video" class="tabcontent">
+
+                    <div class="col col1">
+                        <h3>A Brief History</h3>
+                        <div class="col">
+                            <iframe src="https://www.youtube.com/embed/D5gv4l_PWUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="map col2">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.9601617916924!2d-112.98922052646508!3d37.20117566179696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80cac2bd557942eb%3A0xe4134a8581c167d1!2s7%20Zion%20Park%20Blvd%2C%20Springdale%2C%20UT%2084767!5e0!3m2!1sen!2sus!4v1618946195030!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+    </div>
+
+</main>
+
+<!-- Use the footer area to add site footer content -->
+
+<footer>
+
+    <div class="icon-links">
+        <a target="_blank" href="https://www.facebook.com/ZionNPS"> <i class="fab fa-facebook"></i> </a>
+        <a target="_blank" href="https://www.youtube.com/user/NPSZion"> <i class="fab fa-youtube"></i> </a>
+        <a target="_blank" href="https://www.twitter.com/ZionNPS"> <i class="fab fa-twitter"></i> </a>
+        <a target="_blank" href="https://www.instagram.com/zionnps/"> <i class="fab fa-instagram"></i> </a>
+        <a target="_blank" href="mailto:zion@nps.gov"> <i class="fas fa-envelope"></i> </a>
+        <a target="_blank" href="tel:+14357723256"> <i class="fas fa-phone"></i> </a>
+        <a target="_blank" href="https://www.google.com/maps/place/Zion+National+Park/@37.2573174,-113.058696,12.18z/data=!4m12!1m6!3m5!1s0x80caead08844f8d9:0x7c2e3a15aa3656f5!2sZion+National+Park!8m2!3d37.2982022!4d-113.0263005!3m4!1s0x80caead08844f8d9:0x7c2e3a15aa3656f5!8m2!3d37.2982022!4d-113.0263005"> <i class="fas fa-map-marked-alt"></i> </a>
+        <a target="_blank" href="https://apps.apple.com/us/app/national-park-service/id1549226484"> <i class="fab fa-app-store"></i> </a>
+        <a target="_blank" href="https://play.google.com/store/apps/details?id=gov.nps.mobileapp"> <i class="fab fa-google-play"></i> </a>
+    </div>
+    <div class="extra-info">
+        <div class="author-info">
+            <span> Author: </span>
+            <div class="names">
+                <a target="_blank" href="Portfolio/Personal-Site.html" > Jake Johnson</a>
+            </div>
+        </div>
+        <div class="logo">
+            <p>
+                National Park Service
+                <br>
+                U.S. Department of the Interior
+            </p>
+            <img src="images/nps-logo.png" title="national park logo" alt="national park logo">
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

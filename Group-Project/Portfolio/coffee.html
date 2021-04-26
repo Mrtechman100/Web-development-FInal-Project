@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>San Antonio Cafe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/coffee.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Pacifico');
+        @import url('https://fonts.googleapis.com/css?family=Amaranth:400i');
+    </style>
+</head>
+<body>
+
+
+
+
+
+<div class="container">
+    <!-- Header -->
+    <div class="row">
+        <div class="jumbotron jumbotron-fluid fondo">
+            <div class="container pale ">
+                <h1 class="display-4 text-dark">San Antonio Cafe</h1>
+
+            </div>
+        </div>
+    </div>
+    <!-- main body-->
+    <div class="row">
+        <!-- List of Coffee -->
+        <div class="col-6" id="coffees">
+        </div>
+        <!-- Form for search/input -->
+        <div class="col-6 userchoice">
+            <form>
+                <p>Roast</p>
+                <label for="roast-selection"></label>
+                <select id="roast-selection">
+                    <option>Select a Roast</option>
+                    <option>all</option>
+                    <option>light</option>
+                    <option>medium</option>
+                    <option>dark</option>
+                </select>
+                <p>Coffee Name</p>
+                <input type="text" id="coffeeSearch" name="FirstName" placeholder="Search for a coffee" value=""><br>
+                <input id="submit" type="submit" class="button"/>
+                <hr>
+            </form>
+            <!-- Custom Coffee-->
+            <form>
+                <h2>Add a new Coffee</h2>
+                <label for="roast-selection"></label>
+                <select id="add-coffee">
+                    <option>Select a Roast</option>
+                    <option>all</option>
+                    <option>light</option>
+                    <option>medium</option>
+                    <option>dark</option>
+                </select>
+                <p>Coffee Name</p>
+                <input type="text" id="newName" name="FirstName" placeholder="Add a new coffee to our menu" value=""><br>
+                <input id="new-coffee" type="submit" class="button"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/coffee.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Your custom JS goes here -->
+
+
+<script>
+
+
+
+</script>
+
+</body>
+</html>

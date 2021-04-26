@@ -1,0 +1,174 @@
+body {
+    background-color: #1B1A1B;
+    padding-top: 40px;
+}
+
+#nav {
+    width: 100%;
+    z-index: 9;
+    position: fixed;
+    display: none;
+    top: 0;
+}
+
+nav {
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg,
+    rgba(0,0,0,1) 0%,
+    rgba(20,18,20,1) 15%,
+    rgba(27,26,27,1) 50%,
+    rgba(117,117,117,1) 85%,
+    rgba(252,252,252,1) 100%);
+}
+
+#landing, #about, #contact, #projects {
+    text-align: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #FCFCFC;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
+#landing {
+    background-color: #1B1A1B;
+    color: #FCFCFC;
+}
+
+.container {
+    margin-top: 100px;
+    width: 100%;
+}
+
+.landing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em;
+    margin-left: -15em;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+hr {
+    visibility: hidden;
+}
+
+.links img {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.links>a {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.main, .second, .third, .links {
+    display: none;
+}
+
+p {
+    color: #FCFCFC;
+}
+
+.container {
+    position: relative;
+}
+
+.about-content {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3em;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-control {
+    background-color: #1B1A1B;
+    color: #FCFCFC;
+}
+
+.row {
+    margin-top: 2em;
+}
+
+textarea {
+    height: 15em;
+}
+
+.col-3 img {
+    height: 200px;
+    width: 200px;
+}
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+li img {
+    height: 350px;
+    width: 350px;
+}
+
+.nav-item{
+    text-align: right;
+}
+
+.col-6 {
+    display: inline-block;
+}
+
+.image img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.aboutme {
+    padding-top: 3em;
+}
+
+/*.project1, .project2, .project3, .project4 {*/
+    /*display: none;*/
+/*}*/

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/PS-style.css">
+</head>
+<body>
+
+    <div id="nav">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/jj-logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ">
+                        <a class="nav-item nav-link " href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#about">About Me</a>
+                <a class="nav-item nav-link" href="#projects">Projects</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+    <div id="landing">
+        <div class="landing-text">
+            <h1 class="main">Hi, I'm Jake.</h1>
+            <h3 class="second">I'm a Climber, a Gamer, and most importantly...</h3>
+            <h1 class="third">I'm a Developer</h1>
+            <br>
+            <div class="links">
+                <a href="https://github.com/JakeJohnson435" class="landing-links1" target="_blank" title="GitHub"><img src="img/Social%20Media%20Icons/PNG/Circle%20Black%20White/Github.png"></a>
+                <a href="https://www.linkedin.com/in/jake-johnson-7a28b0161/" class="landing-links2" target="_blank" title="Linkedin"><img src="img/Social%20Media%20Icons/PNG/Circle%20Black%20White/Linkedin.png"></a>
+                <a href="#" class="landing-links3" target="_blank"><img src="img/jj-logo.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <hr>
+        <h2>About Me</h2>
+        <div class="row aboutme">
+            <div class="col-6 image">
+                <img src="img/JakeJohnson4_preview.png" alt="">
+            </div>
+            <div class="col-6"><p class="about-content">During my life I have had several jobs ranging from construction to the military and now to being a developer.
+            I take the lessons that I've learned in the other roles I have held throughout my career and apply them to how I
+            approach development. Other than designing websites and other projects to help me grow as a developer, my goal
+            is to become a Cyber Security expert and create programs and apps that help the users keep their systems and
+            their privacy safe in the ever expanding realm of computers and technology. If you have a need for a website, or are
+            looking for someone who can help create your next big thing, you have come to the right place. Let's build something.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <hr>
+        <h2>My Projects</h2>
+        <div class="container d-none d-lg-block">
+            <div class="row justify-content-center">
+                <div class="col-3 project1"><a href="simon.html" target="_blank"><img src="img/SimonGame.png"></a></div>
+                <div class="col-3 project2"><a href="weather-map.html" target="_blank"><img src="img/WeatherMap.png"></a></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3 project3"><a href="coffee.html" target="_blank"><img src="img/CoffeeShop.png"></a></div>
+                <div class="col-3 project4"><img src="img/jj-logo.png"></div>
+            </div>
+        </div>
+        <div class="container d-lg-none">
+            <ul id="slides">
+                <li class="slide showing"><a href="simon.html" target="_blank"><img src="img/SimonGame.png"></a><p>Simple Simon Game</p></li>
+                <li class="slide"><a href="weather-map.html" target="_blank"><img src="img/WeatherMap.png"></a><p>Interactive Weather Map</p></li>
+                <li class="slide"><a href="coffee.html" target="_blank"><img src="img/CoffeeShop.png"></a><p>Coffee Shop Menu</p></li>
+                <li class="slide"><img src="img/jj-logo.png"><p>Slide 4</p></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contact">
+        <hr>
+        <h2>Contact Me</h2>
+        <form>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Name *">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Email *">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone Number *">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Personal Site (If applicable)">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea type="text" class="form-control" placeholder="Describe your project here. What can I do to help? What is the Timeline/Budget for this project? Please provide as many details as you can."></textarea>
+                </div>
+            </div>
+        </form>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<script src="js/jquery.js"></script>
+<script src="PS-JS.js"></script>
+</body>
+</html>
